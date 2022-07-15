@@ -1,1 +1,9 @@
-$('body').html('<h1>Hello JQuery!!</h1>');
+$(function(){
+  $('.box1').slideDown();
+  $('.box1').css({
+      "background-color": "#0000FF",
+      "width": "200px",
+      "height": "100px"
+  })
+  $('.box1').slideUp();
+});
